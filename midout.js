@@ -15,6 +15,7 @@ function middleOut(arr) {
       right--;
     }
 
+    // swap elements that are on the wrong side of the pivot
     if (left <= right) {
       [arr[left], arr[right]] = [arr[right], arr[left]];
       left++;
